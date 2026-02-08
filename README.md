@@ -1,4 +1,6 @@
 # Node.js --env-file override bug with --watch
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Falialobidm%2Fnodejs-env-file-override-repro.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Falialobidm%2Fnodejs-env-file-override-repro?ref=badge_shield)
+
 
 When using `--watch` and **mixing** `--env-file` with `--env-file-if-exists`, subsequent env files do not override the prior ones as expected by the [docs](https://nodejs.org/en/learn/command-line/how-to-read-environment-variables-from-nodejs):
 
@@ -69,3 +71,7 @@ v24.12.0 MY_VAR: from_dotenv_local
 v24.13.0 MY_VAR: from_dotenv_local
 v25.3.0 MY_VAR: from_dotenv_local
 ```
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Falialobidm%2Fnodejs-env-file-override-repro.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Falialobidm%2Fnodejs-env-file-override-repro?ref=badge_large)
